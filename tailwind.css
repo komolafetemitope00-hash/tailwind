@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display:grid;
+    grid-template-columns: 1.3fr 1fr 2fr 1fr 1.3fr;
+    grid-template-rows: 1fr;
+    height: 150vh;
+    gap: 20px;
+    padding: 40px 100px;
+    background-color: rgb(230, 227, 227);
+}
+
+.first {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
+    gap: 10px;
+
+}
+
+.openai {
+    background-image: url(./Media/imgi_23_openai.png);
+    background-size: cover;
+    border-radius: 10px 0px 10px 0px;
+}
+.opalcamera {
+    background-image: url(./Media/imgi_24_opal.png);
+    background-size: cover;
+    border-radius: 0px 10px 10px 0px;
+}
+.feastables {
+    background-image: url(./Media/imgi_25_feastables.png);
+    background-size: cover;
+    border-radius: 0px 10px 0px 10px;
+}
+.second{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 0.7fr;
+    gap: 10px;
+}
+
+.gumroad{
+    background-image: url(./Media/imgi_26_gumroad.png);
+    background-size: cover;
+}
+.skims{
+    background-image: url(./Media/imgi_27_skims.png);
+    background-size: cover;
+}
+
+.reddit{
+    background-image: url(./Media/imgi_28_reddit.png);
+    background-size: cover;
+}
+.third{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1.5fr 1fr;
+    gap: 10px;
+}
+.rivian{
+    background-image: url(./Media/imgi_29_rivian.png);
+    background-size: cover;
+}
+
+.shorpify{
+    background-image: url(./Media/imgi_30_shopify.png);
+    background-size: cover;
+}
+
+.clerk{
+    background-image: url(./Media/imgi_31_clerk.png);
+    background-size: cover;
+}
+
+.fourth{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 0.7fr;
+    gap: 10px;
+}
+.theverge{
+    background-image: url(https://tailwindcss.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fverge.07-a9z7tfaczw.png&w=256&q=75);
+    background-size: cover;
+}
+
+.iogoogle{
+    background-image: url(./Media/imgi_33_googleio.png);
+    background-size: cover;
+}
+
+.ted{
+    background-image: url(./Media/imgi_34_ted.png);
+    background-size: cover;
+}
+
+.fifth {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
+    gap: 10px;
+}
+
+.poolside {
+    background-image: url(./Media/imgi_35_poolside.png);
+    background-size: cover;
+    border-radius: 0px 10px 0px 10px;
+}
+.midjourney {
+    background-image: url(./Media/imgi_36_midjourney.png);
+    background-size: cover;
+}
+.jpl {
+    background-image: url(./Media/imgi_37_nasa.png);
+    background-size: cover;
+    border-radius: 0px 10px 0px 10px;
+}
